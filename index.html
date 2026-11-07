@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LearnBuildLoop | Cloud & DevOps Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header>
+    <div class="nav-container">
+      <h1 class="logo">LearnBuild<span>Loop</span></h1>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#notes">Revision Notes</a>
+        <a href="#comparison">Service Mapping</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="about">
+      <h2>Build in Public. Master Cloud & DevOps.</h2>
+      <p>Zero-fluff technical revision notes, cloud architecture blueprints, and real-world project deployments.</p>
+    </section>
+
+    <section class="notes-container" id="notes">
+      <h2>AZ-900: Cloud Concepts <span>(Module 01)</span></h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>High Availability & Scalability</h3>
+          <p><strong>HA:</strong> Minimum downtime using redundant infrastructure.</p>
+          <p><strong>Scalability:</strong> Vertical (Scale Up/Down - bigger VM) vs Horizontal (Scale Out/In - add more VMs).</p>
+        </article>
+
+        <article class="card">
+          <h3>Reliability & Predictability</h3>
+          <p><strong>Reliability:</strong> Automatic failover and disaster recovery.</p>
+          <p><strong>Predictability:</strong> Confidence in workload performance and upfront cost estimation (Pricing Calculator).</p>
+        </article>
+
+        <article class="card">
+          <h3>Security & Governance</h3>
+          <p><strong>Security:</strong> Protect data, identities, and infrastructure at rest and in transit.</p>
+          <p><strong>Governance:</strong> Enforce corporate compliance standards via policies.</p>
+        </article>
+
+        <article class="card">
+          <h3>Manageability & Sustainability</h3>
+          <p><strong>Manageability:</strong> Automation via CLI, PowerShell, ARM, and monitoring.</p>
+          <p><strong>Sustainability:</strong> Right-sizing and deallocating idle instances to cut carbon footprint.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="comparison-container" id="comparison">
+      <h2>Quick Mapping: Azure vs AWS</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Equivalent cloud concepts and services in Azure and AWS</caption>
+          <thead>
+            <tr>
+              <th scope="col">Concept / Service</th>
+              <th scope="col">Microsoft Azure</th>
+              <th scope="col">Amazon Web Services (AWS)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Virtual Compute</th>
+              <td>Virtual Machines (VM)</td>
+              <td>Amazon EC2</td>
+            </tr>
+            <tr>
+              <th scope="row">Object Storage</th>
+              <td>Blob Storage</td>
+              <td>Amazon S3</td>
+            </tr>
+            <tr>
+              <th scope="row">Static Hosting</th>
+              <td>Azure Static Web Apps</td>
+              <td>AWS Amplify / S3 + CloudFront</td>
+            </tr>
+            <tr>
+              <th scope="row">Monitoring</th>
+              <td>Azure Monitor</td>
+              <td>Amazon CloudWatch</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with <span aria-label="a computer" role="img">💻</span> for the student engineering community &bull; LearnBuildLoop</p>
+  </footer>
+</body>
+</html>
